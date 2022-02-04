@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    float c,fh;
+    scanf("%f",&c);
+    fh=(c*(9.0/5))+32;
+    printf("%.2f",fh);
+}
