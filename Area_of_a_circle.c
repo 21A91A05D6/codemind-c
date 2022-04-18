@@ -5,4 +5,5 @@ int main()
     scanf("%f",&r);
     area=pi*r*r;
     printf("%.2f",area);
+    
 }
