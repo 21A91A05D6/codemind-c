@@ -1,15 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,a[100],d,temp,rev=0;
+    int temp,rev=0,d,arr[100],i,n,count=0;
     scanf("%d",&n);
+    
     for(i=0;i<n;i++)
     {
-        scanf("%d",&a[i]);
+        
+            scanf("%d",&arr[i]);
+        
     }
     for(i=0;i<n;i++)
     {
-        temp=a[i];
+        temp=arr[i];
         rev=0;
         while(temp)
         {
@@ -19,4 +22,5 @@ int main()
         }
         printf("%d ",rev);
     }
+    
 }
