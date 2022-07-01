@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int arr[100],n,i,dc=0;
+    int i,n,a[100],c=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&a[i]);
     }
     for(i=1;i<n-1;i++)
     {
-        if(arr[i-1]%2 && arr[i+1]%2 && arr[i]%2==0)
+        if(a[i-1]%2 && a[i+1]%2 && a[i]%2==0)
         {
-            dc++;
+            c++;
         }
     }
-    printf("%d",dc);
+    printf("%d",c);
 }
